@@ -16,7 +16,7 @@ $(document).keypress(function(){
         $("h1").text("Level " + level);
         setTimeout(function(){
             nextSequence();
-        }, 1000);
+        }, 2000);
         started = true;
     }
 });
