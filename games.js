@@ -14,7 +14,9 @@ function startOver(){
 $(document).keypress(function(){
     if(!started){
         $("h1").text("Level " + level);
-        nextSequence();
+        setTimeout(function(){
+            nextSequence();
+        }, 1000);
         started = true;
     }
 });
